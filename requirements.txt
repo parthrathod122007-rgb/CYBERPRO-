@@ -1,0 +1,20 @@
+# CYBERPRO Platform & CRM - Python Dependencies
+# ==============================================================================
+# The core server and CRM run 100% on Python 3.10+ standard library (http.server,
+# sqlite3, hashlib, json, urllib, ssl, threading).
+#
+# The packages below are optional enhancements for external LLM cloud providers,
+# automated environment loading, and cloud container deployments.
+# ==============================================================================
+
+# Environment variable loading
+python-dotenv>=1.0.1
+
+# HTTP Utilities
+urllib3>=2.2.0
+requests>=2.31.0
+
+# Optional External AI Provider Acceleration (Gemini / OpenAI)
+# If left unconfigured, the built-in CYBERPRO Neural Inference Engine operates locally with zero dependencies.
+google-generativeai>=0.8.3
+openai>=1.30.0

@@ -1,0 +1,35 @@
+# Environments & Secrets (NEVER COMMIT)
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# SQLite Database binaries (keep schema.sql in git instead)
+data/*.db
+data/*.db-wal
+data/*.db-shm
+data/*.log
+*.log
+
+# Caches & Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Node & Build artifacts
+node_modules/
+dist/
+.vite/
+
+# Temporary / Scratch scripts
+scratch/
+
+# Local archives
+*.zip
+*.tar.gz
+
+# OS generated files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,27 @@
+{
+  "name": "cyberpro-platform",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "CYBERPRO Zero-Trust Cybersecurity Defense Academy, Student LMS & AI Assistant CRM",
+  "scripts": {
+    "build": "node build.js || python3 build.py || python build.py",
+    "build:node": "node build.js",
+    "build:py": "python build.py",
+    "build:vite": "vite build",
+    "dev": "python server.py",
+    "start": "python server.py",
+    "test": "python -m unittest discover tests"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  },
+  "keywords": [
+    "cybersecurity",
+    "defense-academy",
+    "lms",
+    "cloudflare-pages"
+  ],
+  "author": "Parth Rathod <parthrathod122007@gmail.com>",
+  "license": "Proprietary"
+}
